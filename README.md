@@ -13,11 +13,11 @@ _**Base LLM**_
 **input:** _Once upon a time, there was a unicorn_
 **output:** _that lived in a magical forest with all her unicorn friends_
 
-**input:** _What is the capital of France? _ 
+**input:** _What is the capital of France?_ 
 **output:** 
-_What is France’s largest city?  
-What is France’s population?  
-hat is the currency of France?_  
+_What is France’s largest city?_  
+_What is France’s population?_  
+_What is the currency of France?_
 
 _**Instruction Turned LLM**_
 
@@ -28,7 +28,7 @@ Tries to follow instructions:
 -> Technique called RLHF (reinforcement learning from human feedback)
 -> helpful, honest, harmless.
 
-**input:** _What is the capital of France?_  
+**input:** _What is the capital of France?_
 **output:** _The captial of France is Paris._
 
 
