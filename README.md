@@ -8,11 +8,13 @@ The power of Large Language Models(LLM) as a developer tool, that is using API c
 
 _**Base LLM**_
 
-![2023-08-17 18_31_07-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/1a71a99f-6ac8-45e5-9334-0a4ee28eb2db)
+![2023-08-17 18_31_07-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/24ffdf6f-66ca-41bc-ab00-5056f9df023c)
+
 
 _**Instruction Turned LLM**_
 
-![2023-08-17 18_31_35-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/787b9d1c-6305-44eb-8d1d-ee540fb8bb20)
+![2023-08-17 18_31_35-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/2fb09633-9375-47a5-92e9-a8ce8ae85b77)
+
 
 _Load OpenAI Key_
 
