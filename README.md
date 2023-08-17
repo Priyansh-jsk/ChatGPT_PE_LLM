@@ -8,12 +8,28 @@ The power of Large Language Models(LLM) as a developer tool, that is using API c
 
 _**Base LLM**_
 
-![2023-08-17 18_31_07-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/24ffdf6f-66ca-41bc-ab00-5056f9df023c)
+-> Predicts next word, based on text training data.
 
+**input:** _Once upon a time, there was a unicorn_
+**output:** _that lived in a magical forest with all her unicorn friends_
+
+**input:** _What is the capital of France? _ 
+**output:** 
+_What is France’s largest city?  
+What is France’s population?  
+hat is the currency of France?_  
 
 _**Instruction Turned LLM**_
 
-![2023-08-17 18_31_35-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/2fb09633-9375-47a5-92e9-a8ce8ae85b77)
+Tries to follow instructions: 
+
+-> start off with a base LLMs that’s been trained on a huge amount of text data.
+-> Fine-tune on instructions and good attempts at following those instructions.
+-> Technique called RLHF (reinforcement learning from human feedback)
+-> helpful, honest, harmless.
+
+**input:** _What is the capital of France?_  
+**output:** _The captial of France is Paris._
 
 
 _Load OpenAI Key_
