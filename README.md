@@ -4,32 +4,32 @@
 
 The power of Large Language Models(LLM) as a developer tool, that is using API calls to LLMs to quickly build software applications.
 
-_There are wwo types of LLMs-_
+**_There are two types of LLMs-_**
 
 _**Base LLM**_
 
-
-
-
+![2023-08-17 18_31_07-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/1a71a99f-6ac8-45e5-9334-0a4ee28eb2db)
 
 _**Instruction Turned LLM**_
 
-
-
+![2023-08-17 18_31_35-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/787b9d1c-6305-44eb-8d1d-ee540fb8bb20)
 
 _Load OpenAI Key_
-![2023-08-17 17_52_18-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/12d97e7a-6002-435a-b916-280b1d5828a3)
+
+![2023-08-17 18_27_58-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/82e356b5-73d2-4d43-9bff-f8f3ccf8d769)
+
 
 _Model used_
-we will use OpenAI gpt-3.5-turbo model. This helper function will make it easier to use prompts and look at the generated outputs:
-![2023-08-17 18_25_10-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/514b7825-1e99-4dd2-8594-a621cdee28b5)
 
+we will use OpenAI gpt-3.5-turbo model. This helper function will make it easier to use prompts and look at the generated outputs:
+
+![2023-08-17 18_25_10-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/514b7825-1e99-4dd2-8594-a621cdee28b5)
 
 
 **Principles of prompting:**
 
 1. Write clear and specific instructions.
-2. Use delimiters like quotes("""), ''', ---, <>, <tag> </tag> etc.
+2. Use delimiters like: ```, """, < >, <tag> </tag>, : 
 3. Ask for structured output-> HTML, JSON etc.
 4. Check wheather conditions are satisfied to do a task.
 5. Few examples of the sorts of task prompting completion.
