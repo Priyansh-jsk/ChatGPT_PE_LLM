@@ -1,7 +1,30 @@
 # ChatGPT Prompt Engineering for Developers Course- Notes
 
-
 ![2023-08-17 17_52_18-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/2ac1e47b-b105-441d-818d-c3455a2ccef9)
+
+The power of Large Language Models(LLM) as a developer tool, that is using API calls to LLMs to quickly build software applications.
+
+_There are wwo types of LLMs-_
+
+_**Base LLM**_
+
+
+
+
+
+_**Instruction Turned LLM**_
+
+
+
+
+_Load OpenAI Key_
+![2023-08-17 17_52_18-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/12d97e7a-6002-435a-b916-280b1d5828a3)
+
+_Model used_
+we will use OpenAI gpt-3.5-turbo model. This helper function will make it easier to use prompts and look at the generated outputs:
+![2023-08-17 18_25_10-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/514b7825-1e99-4dd2-8594-a621cdee28b5)
+
+
 
 **Principles of prompting:**
 
