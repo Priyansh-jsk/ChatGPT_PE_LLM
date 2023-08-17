@@ -1,6 +1,7 @@
 # ChatGPT Prompt Engineering for Developers Course- Notes
 
 
+![2023-08-17 17_52_18-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/2ac1e47b-b105-441d-818d-c3455a2ccef9)
 
 **Principles of prompting:**
 
