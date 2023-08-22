@@ -111,16 +111,10 @@ So, Now one of the most exciting applications We have in the world which is the 
 
 _Summarize with a word/sentence/character limit_
 
-```prod_review =
+```
+prod_review =
 """
-Got this panda plush toy for my daughter's birthday, \
-who loves it and takes it everywhere. It's soft and \ 
-super cute, and its face has a friendly look. It's \ 
-a bit small for what I paid though. I think there \ 
-might be other options that are bigger for the \ 
-same price. It arrived a day earlier than expected, \ 
-so I got to play with it myself before I gave it \ 
-to her.
+Got this panda plush toy for my daughter's birthday, who loves it and takes it everywhere. It's soft and super cute, and its face has a friendly look. It's a bit small for what I paid though. I think there might be other options that are bigger for the same price. It arrived a day earlier than expected, so I got to play with it myself before I gave it to her.
 """
 ```
 
@@ -184,6 +178,7 @@ print(response)
 _Summarize multiple product reviews_
 There are three lengthy product reviews to be grouped into a list initially. The second is to implement a Python for loop to run the prompt on all the reviews.
 
+'''
 review_1 = prod_review 
 
 # review for a standing lamp
@@ -219,6 +214,7 @@ get generic ones that're more reasonably priced. This \
 toothbrush makes me feel like I've been to the dentist \
 every day. My teeth feel sparkly clean!
 """
+'''
 
 ```reviews = [review_1, review_2, review_3]```
 
@@ -239,6 +235,7 @@ for i in range(len(reviews)):
 ```
  
 **Output-** 
+
 0 Panda plush toy is loved by daughter, soft and cute, but small for the price. Arrived early. 
 
 1 Great lamp with storage, fast delivery, excellent customer service, and easy assembly. Highly recommended. 
