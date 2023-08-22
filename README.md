@@ -11,24 +11,30 @@ _**Base LLM**_
 -> Predicts next word, based on text training data.
 
 **Input:** _Once upon a time, there was a unicorn_
+
 **output:** _that lived in a magical forest with all her unicorn friends_
 
 **Input:** _What is the capital of France?_ 
+
 **output:** 
+
 _What is France’s largest city?_  
+
 _What is France’s population?_  
+
 _What is the currency of France?_
 
 _**Instruction Turned LLM**_
 
 Tries to follow instructions: 
 
--> Start off with a base LLM that’s been trained on a huge amount of text data.
--> Fine-tune on instructions and good attempts at following those instructions.
--> They are trained in RLHF (reinforcement learning from human feedback)
--> They've been trained to be helpful, honest, and harmless.(e.g.: They're less likely to output toxic tests vs base LLMs).
+- Start off with a base LLM that’s been trained on a huge amount of text data.
+- Fine-tune on instructions and good attempts at following those instructions.
+- They are trained in RLHF (reinforcement learning from human feedback)
+- They've been trained to be helpful, honest, and harmless.(e.g.: They're less likely to output toxic tests vs base LLMs).
 
 **Input:** _What is the capital of France?_
+
 **output:** _The captial of France is Paris._
 
 
@@ -93,4 +99,13 @@ _from IPython.display import display, HTML_
 _display(HTML(response))_
 
 _**Summarizing**_
+
+There's so much text we see in today's world, But we don't have to read all the things. 
+So, Now one of the most exciting application We have in the world which is the Large Language Model is to use it to summarize text, in an accurate way.
+
+- In summary, give more details about the intent of the summary viewer to help the response from ChatGPT focus on the relevant details from the original content.
+- Extract information that removes other parts from the response, in summary, to focus exactly.
+- Looping over a list can help summarize product sites quickly.
+- Binary responses (positive or negative) can be used to help with programmatic use.
+- Extracting a list of emotions from the writer for a text is also possible.
 
