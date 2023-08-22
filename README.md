@@ -2,7 +2,7 @@
 
 ![2023-08-17 17_52_18-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/2ac1e47b-b105-441d-818d-c3455a2ccef9)
 
-The power of Large Language Models(LLM) as a developer tool, that is using API calls to LLMs to quickly build software applications.
+The power of Large Language Models(LLM) as a developer tool, that is using API calls to LLMs to quickly build software applications. The importance of prompt engineering will continue to grow as time passes, given the increasing significance of AI and chatbots like ChatGPT in the future.
 
 **_There are two types of LLMs-_**
 
@@ -25,8 +25,8 @@ Tries to follow instructions:
 
 -> Start off with a base LLM that’s been trained on a huge amount of text data.
 -> Fine-tune on instructions and good attempts at following those instructions.
--> Technique called RLHF (reinforcement learning from human feedback)
--> helpful, honest, harmless.
+-> They are trained in RLHF (reinforcement learning from human feedback)
+-> They've been trained to be helpful, honest, and harmless.(e.g.: They're less likely to output toxic tests vs base LLMs).
 
 **Input:** _What is the capital of France?_
 **output:** _The captial of France is Paris._
@@ -73,50 +73,7 @@ _**Iterative-prompt-development**_
 - Clarify instructions, and give more time to think.
 - Think to Refine prompts with a batch of examples
 
-**_Example:_**
-Assume we have a text prompt- Generate a marketing product description from a product fact sheet.
-""" 
-OVERVIEW
-- Part of a beautiful family of mid-century-inspired office furniture, 
-including filing cabinets, desks, bookcases, meeting tables, and more.
-- Several options of shell color and base finishes.
-- Available with plastic back and front upholstery (SWC-100) 
-or full upholstery (SWC-110) in 10 fabric and 6 leather options.
-- Base finish options are stainless steel, matte black, 
-gloss white, or chrome.
-- Chair is available with or without armrests.
-- Suitable for home or business settings.
-- Qualified for contract use.
-
-CONSTRUCTION
-- 5-wheel plastic coated aluminum base.
-- Pneumatic chair adjust for easy raise/lower action.
-
-DIMENSIONS
-- WIDTH 53 CM | 20.87”
-- DEPTH 51 CM | 20.08”
-- HEIGHT 80 CM | 31.50”
-- SEAT HEIGHT 44 CM | 17.32”
-- SEAT DEPTH 41 CM | 16.14”
-
-OPTIONS
-- Soft or hard-floor caster options.
-- Two choices of seat foam densities: 
- medium (1.8 lb/ft3) or high (2.8 lb/ft3)
-- Armless or 8-position PU armrests 
-
-MATERIALS
-SHELL BASE GLIDER
-- Cast Aluminum with modified nylon PA6/PA66 coating.
-- Shell thickness: 10 mm.
-SEAT
-- HD36 foam
-
-COUNTRY OF ORIGIN
-- Italy
-"""
-
-We have some issues with performing this prompt text data. 
+We have some issues with performing prompt text data. 
 
 **Issue 1:** The text is too long 
 Limit the number of words/sentences/characters.
@@ -129,9 +86,11 @@ Ask it to extract information and organize it in a table.
 
 Let's see now, How to Load Python libraries to view HTML.
 
-We have the following commands to view HTML.
+**We have the following commands to view HTML.**
 
 _from IPython.display import display, HTML_
 
 _display(HTML(response))_
+
+_**Summarizing**_
 
