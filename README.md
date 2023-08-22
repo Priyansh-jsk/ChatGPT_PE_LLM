@@ -62,16 +62,16 @@ _**Iterative-prompt-development**_
 ![2023-08-22 13_43_00-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/8c408e0d-430e-4a76-b362-43435dd29828)
 
 **Prompt Guidelines**
-Be clear and specific.
-Analyze why the result does not give the desired output.
-Refine the idea and the prompt.
-Repeat
+- Be clear and specific.
+- Analyze why the result does not give the desired output.
+- Refine the idea and the prompt.
+- Repeat
 
 **Iterative Process**
-Try something.
-Analyze where the result does not give what you want.
-Clarify instructions, and give more time to think.
-Think to Refine prompts with a batch of examples
+- Try something.
+- Analyze where the result does not give what you want.
+- Clarify instructions, and give more time to think.
+- Think to Refine prompts with a batch of examples
 
 **_Example:_**
 Assume we have a text prompt- Generate a marketing product description from a product fact sheet.
@@ -132,5 +132,6 @@ Let's see now, How to Load Python libraries to view HTML.
 We have the following commands to view HTML.
 
 _from IPython.display import display, HTML_
+
 _display(HTML(response))_
 
