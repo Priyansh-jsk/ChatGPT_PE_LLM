@@ -2,7 +2,7 @@
 
 ![2023-08-17 17_52_18-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/2ac1e47b-b105-441d-818d-c3455a2ccef9)
 
-The power of Large Language Models(LLM) as a developer tool, that is using API calls to LLMs to quickly build software applications. The importance of prompt engineering will continue to grow as time passes, given the increasing significance of AI and chatbots like ChatGPT in the future.
+The power of Large Language Models(LLM) as a developer tool, that uses API calls to LLMs to quickly build software applications. The importance of prompt engineering will continue to grow as time passes, given the increasing significance of AI and chatbots like ChatGPT in the future.
 
 **_There are two types of LLMs-_**
 
@@ -31,7 +31,7 @@ Tries to follow instructions:
 - Start off with a base LLM that’s been trained on a huge amount of text data.
 - Fine-tune on instructions and good attempts at following those instructions.
 - They are trained in RLHF (reinforcement learning from human feedback)
-- They've been trained to be helpful, honest, and harmless.(e.g.: They're less likely to output toxic tests vs base LLMs).
+- They've been trained to be helpful, honest, and harmless. (e.g.: They're less likely to output toxic tests vs. base LLMs).
 
 **Input:** _What is the capital of France?_
 
@@ -61,6 +61,7 @@ we will use the OpenAI gpt-3.5-turbo model. This helper function will make it ea
 7. Specify the steps to output the task, breaking down the solution into neat steps.
 8. Make the output in a specified format for better parsing.
 9. Instruct the model to find its own solution before rushing to a conclusion.
+10. Model Limitations: Hallucinations
 
 _**Iterative-prompt-development**_
 
@@ -100,8 +101,8 @@ _display(HTML(response))_
 
 _**Summarizing**_
 
-There's so much text we see in today's world, But we don't have to read all the things. 
-So, Now one of the most exciting applications We have in the world which is the Large Language Model is to use it to summarize text, in an accurate way.
+There's so much text we see in today's world, But we don't have to read all the things. So, Now one of the most exciting applications We have in the world which is the Large Language Model is to use it to summarize text, in an accurate way.
+E.g., summarizing user reviews for brevity etc.
 
 - In summary, give more details about the intent of the summary viewer to help the response from ChatGPT focus on the relevant details from the original content.
 - Extract information that removes other parts from the response, in summary, to focus exactly.
@@ -172,7 +173,8 @@ For example, We have three lengthy product reviews to be grouped into a list ini
 
 _**Inferring**_
 
-So, if we want to extract a sentiment, positive or negative, of a piece of text in the traditional M.L workflow, you have to collect the label data set, train a model Somewhere in the cloud, and make inferences that could work pretty well but it wants you to know just a lot of work to go through that process, and also for every task, such sentiment extracting names Versus.
+Inferring allows for the quick building and implementation of natural language processing systems. So, if we want to extract a sentiment, positive or negative, of a piece of text in the traditional M.L workflow, you have to collect the label data set, train a model Somewhere in the cloud, and make inferences that could work pretty well but it wants you to know just a lot of work to go through that process, and also for every task, such sentiment extracting names Versus.
+E.g., sentiment classification and topic extraction.
 
 1. Sentiment-> positive / Negative
 2. Identify types of emotion 
@@ -186,22 +188,24 @@ Make a news alert for certain topics
 
 _**Transforming**_
 
-LLM is good at transforming its input to a different format, such as inputting a piece of text in one language and transforming it or translating it to a different language. ChatGPT is trained with sources in many languages. This gives the model the ability to do translations. 
-
-- Also, it fixes grammar if there is any wrong grammar in sentences. 
-- Also transforming formats such as inputting HTML and outputting JSON.
+LLM is good at transforming its input to a different format, such as inputting a piece of text in one language and transforming it or translating it to a different language. ChatGPT is trained with sources in many languages. This gives the model the ability to do translations.
+E.g., translation, spelling & grammar correction.
 
 -> Tone transformation- The way we write changes depending on who we're writing for. ChatGPT can make different tones.
--> Format Conversion- JSON to HTML (table)
--> Spellcheck / Grammer check
+
+-> Format Conversion- JSON to HTML (table), transforming formats such as inputting HTML and outputting JSON.
+
+-> Spellcheck / Grammer check- It fixes grammar if there is any wrong grammar in sentences. 
 
 _**Expanding**_
 
 Now, we are going to use a parameter of the LLM called temperature that will allow us to change the kind of variety of the model's response. So you can kind of to think of temperature as the degree of exploration or kind of randomness of the model.
-The best Example- automatically writing emails.
+E.g., automatically writing emails.
 
 The two features to submission of your application with two properties:
+
 -> Sentiment – A general feeling from the user on how they feel about an item. Either “positive” or “negative”
+
 -> Review – A message composed by the user expanding on their feelings.
 
 **Temperature-** 
