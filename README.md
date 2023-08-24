@@ -217,6 +217,22 @@ The temperature parameter is used in the generation of text using language model
 
 ![2023-08-24 14_11_33-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/fedbc707-4d27-412b-a944-5e7f99080e1d)
 
+There are three important things we want to know:
+
+_Temperature:_ Controls randomness, higher values increase diversity.
+
+_Top-p (nucleus):_ The cumulative probability cutoff for token selection. Lower values mean sampling from a smaller, more top-weighted nucleus.
+
+_Top-k:_ Sample from the k most likely next tokens at each step. Lower k focuses on higher probability tokens.
+
+Let's understand in simple terms:
+
+-> High temperature makes results more messy and varied.
+
+-> Lower top-p values reduce diversity and focus on more probable tokens.
+
+-> Lower top-k also concentrates sampling on the highest probability tokens for each step.
+
 _**ChatBot**_
 
 LLM also uses it to build custom chatbots with only a modest amount of effort.
