@@ -186,13 +186,27 @@ Make a news alert for certain topics
 
 _**Transforming**_
 
-LLM is good at transforming its input to a different format, such as inputting a piece of text in one language and transforming it or translating it to a different language.
-Also, it fixes grammar if there is any wrong grammar in sentences. 
-Also transforming formats such as inputting HTML and outputting JSON.
+LLM is good at transforming its input to a different format, such as inputting a piece of text in one language and transforming it or translating it to a different language. ChatGPT is trained with sources in many languages. This gives the model the ability to do translations. 
 
--> Tone transformation.
--> Format Conversion.
+- Also, it fixes grammar if there is any wrong grammar in sentences. 
+- Also transforming formats such as inputting HTML and outputting JSON.
+
+-> Tone transformation- The way we write changes depending on who we're writing for. ChatGPT can make different tones.
+-> Format Conversion- JSON to HTML (table)
 -> Spellcheck / Grammer check
 
 _**Expanding**_
 
+Now, we are going to use a parameter of the LLM called temperature that will allow us to change the kind of variety of the model's response. So you can kind of to think of temperature as the degree of exploration or kind of randomness of the model.
+The best Example- automatically writing emails.
+
+The two features to submission of your application with two properties:
+-> Sentiment – A general feeling from the user on how they feel about an item. Either “positive” or “negative”
+-> Review – A message composed by the user expanding on their feelings.
+
+**Temperature-** 
+The temperature parameter is used in the generation of text using language models to control the level of randomness and creativity in the generated text. Usually, the lower the temperature, the more likely GPT-3 will choose words with a higher probability of occurrence. A higher temperature leads to a more diverse and creative output.
+
+![2023-08-24 14_11_33-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/fedbc707-4d27-412b-a944-5e7f99080e1d)
+
+_**ChatBot**_
