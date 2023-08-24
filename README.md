@@ -56,7 +56,7 @@ we will use the OpenAI gpt-3.5-turbo model. This helper function will make it ea
 2. Use delimiters like: ```, """, < >, <tag> </tag>, : 
 3. Ask for structured output-> HTML, JSON, etc.
 4. Check whether conditions are satisfied to do a task.
-5. Few examples of the sorts of task prompting completion.
+5. A few examples of the sorts of task prompting completion.
 6. Give the model time to think.
 7. Specify the steps to output the task, breaking down the solution into neat steps.
 8. Make the output in a specified format for better parsing.
@@ -168,70 +168,31 @@ print(response)
 **Output-** The shipping department should take note that the product arrived a day earlier than expected.
 
 _Summarize multiple product reviews_
-There are three lengthy product reviews to be grouped into a list initially. The second is to implement a Python for loop to run the prompt on all the reviews.
+For example, We have three lengthy product reviews to be grouped into a list initially. The second is to implement a Python for loop to run the prompt on all the reviews.
 
-'''
-review_1 = prod_review 
+_**Inferring**_
 
-**review for a standing lamp**
-review_2 = """
-Needed a nice lamp for my bedroom, and this one \
-had additional storage and not too high of a price \
-point. Got it fast - arrived in 2 days. The string \
-to the lamp broke during the transit and the company \
-happily sent over a new one. Came within a few days \
-as well. It was easy to put together. Then I had a \
-missing part, so I contacted their support, and they \
-very quickly got me the missing piece! Seems to me \
-to be a great company that cares about their customers \
-and products. 
-"""
+So, if we want to extract a sentiment, positive or negative, of a piece of text in the traditional M.L workflow, you have to collect the label data set, train a model Somewhere in the cloud, and make inferences that could work pretty well but it wants you to know just a lot of work to go through that process, and also for every task, such sentiment extracting names Versus.
 
-**review for an electric toothbrush**
-review_3 = """
-My dental hygienist recommended an electric toothbrush, \
-which is why I got this. The battery life seems to be \
-pretty impressive so far. After initial charging and \
-leaving the charger plugged in for the first week to \
-condition the battery, I've unplugged the charger and \
-been using it for twice daily brushing for the last \
-3 weeks all on the same charge. But the toothbrush head \
-is too small. I’ve seen baby toothbrushes bigger than \
-this one. I wish the head was bigger with different \
-length bristles to get between teeth better because \
-this one doesn’t.  Overall if you can get this one \
-around the $50 mark, it's a good deal. The manufactuer's \
-replacements heads are pretty expensive, but you can \
-get generic ones that're more reasonably priced. This \
-toothbrush makes me feel like I've been to the dentist \
-every day. My teeth feel sparkly clean!
-"""
-'''
+1. Sentiment-> positive / Negative
+2. Identify types of emotion 
+    -> Identify anger-> In yes or no
+3. Extract product and company name from Customer reviews.
+4. Doing multiple tasks at once 
+5. Inferring topics
 
-```reviews = [review_1, review_2, review_3]```
+To get infer 5 topics
+Make a news alert for certain topics
 
-```
-for i in range(len(reviews)):
-    prompt = f"""
-    Your task is to generate a short summary of a product \ 
-    review from an ecommerce site. 
+_**Transforming**_
 
-    Summarize the review below, delimited by triple \
-    backticks in at most 20 words. 
+LLM is good at transforming its input to a different format, such as inputting a piece of text in one language and transforming it or translating it to a different language.
+Also, it fixes grammar if there is any wrong grammar in sentences. 
+Also transforming formats such as inputting HTML and outputting JSON.
 
-    Review: ```{reviews[i]}```
-    """
+-> Tone transformation.
+-> Format Conversion.
+-> Spellcheck / Grammer check
 
-    response = get_completion(prompt)
-    print(i, response, "\n")
-```
- 
-**Output-** 
-
-0 Panda plush toy is loved by daughter, soft and cute, but small for the price. Arrived early. 
-
-1 Great lamp with storage, fast delivery, excellent customer service, and easy assembly. Highly recommended. 
-
-2 The reviewer recommends the electric toothbrush for its impressive battery life but criticizes the small brush head.
-
+_**Expanding**_
 
