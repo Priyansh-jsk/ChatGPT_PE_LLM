@@ -40,8 +40,7 @@ Tries to follow instructions:
 
 _Load OpenAI Key_
 
-![2023-08-17 18_27_58-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/82e356b5-73d2-4d43-9bff-f8f3ccf8d769)
-
+![2023-08-24 14_35_48-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/2813dd55-e550-4bcd-8bf4-3b001386edbb)
 
 _Model used_
 
