@@ -213,3 +213,20 @@ The temperature parameter is used in the generation of text using language model
 ![2023-08-24 14_11_33-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/fedbc707-4d27-412b-a944-5e7f99080e1d)
 
 _**ChatBot**_
+
+LLM also uses it to build custom chatbots with only a modest amount of effort.
+-> ChatGPT the web interface is a way for you to have a conversational interface a conversation via a large language model.
+-> We can also build a custom chatbot using LLM.
+
+Note: While you want a chatbot to talk in a friendly way to users, when you need the information for working with, you'd like it to be less creative and more like what you expect. To do that, you can change the "temperature" setting to 0, which makes it act in a consistent and predictable manner.
+
+Below is the sample Chatbot- OrderBot that will take orders at a pizza restaurant.  
+
+![2023-08-24 14_52_41-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/2ae2c9a1-cbab-466b-8b45-e4aff7954639)
+
+Here's a JSON summary of your food order:
+
+![2023-08-24 14_53_16-DLAI - Learning Platform Beta](https://github.com/Priyansh-jsk/ChatGPT_PE_LLM/assets/58244081/7e3870aa-19ae-447c-8f97-f5dcc734cf7d)
+
+Source:
+ChatGPT Prompt Engineering for Developers course: https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
