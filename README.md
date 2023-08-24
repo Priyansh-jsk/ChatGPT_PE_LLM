@@ -101,7 +101,8 @@ _display(HTML(response))_
 _**Summarizing**_
 
 There's so much text we see in today's world, But we don't have to read all the things. So, Now one of the most exciting applications We have in the world which is the Large Language Model is to use it to summarize text, in an accurate way.
-E.g., summarizing user reviews for brevity etc.
+
+E.g., summarizing user reviews for brevity, etc.
 
 - In summary, give more details about the intent of the summary viewer to help the response from ChatGPT focus on the relevant details from the original content.
 - Extract information that removes other parts from the response, in summary, to focus exactly.
@@ -173,6 +174,7 @@ For example, We have three lengthy product reviews to be grouped into a list ini
 _**Inferring**_
 
 Inferring allows for the quick building and implementation of natural language processing systems. So, if we want to extract a sentiment, positive or negative, of a piece of text in the traditional M.L workflow, you have to collect the label data set, train a model Somewhere in the cloud, and make inferences that could work pretty well but it wants you to know just a lot of work to go through that process, and also for every task, such sentiment extracting names Versus.
+
 E.g., sentiment classification and topic extraction.
 
 1. Sentiment-> positive / Negative
@@ -183,11 +185,13 @@ E.g., sentiment classification and topic extraction.
 5. Inferring topics
 
 To get infer 5 topics
+
 Make a news alert for certain topics
 
 _**Transforming**_
 
 LLM is good at transforming its input to a different format, such as inputting a piece of text in one language and transforming it or translating it to a different language. ChatGPT is trained with sources in many languages. This gives the model the ability to do translations.
+
 E.g., translation, spelling & grammar correction.
 
 -> Tone transformation- The way we write changes depending on who we're writing for. ChatGPT can make different tones.
@@ -199,6 +203,7 @@ E.g., translation, spelling & grammar correction.
 _**Expanding**_
 
 Now, we are going to use a parameter of the LLM called temperature that will allow us to change the kind of variety of the model's response. So you can kind of to think of temperature as the degree of exploration or kind of randomness of the model.
+
 E.g., automatically writing emails.
 
 The two features to submission of your application with two properties:
@@ -215,7 +220,9 @@ The temperature parameter is used in the generation of text using language model
 _**ChatBot**_
 
 LLM also uses it to build custom chatbots with only a modest amount of effort.
+
 -> ChatGPT the web interface is a way for you to have a conversational interface a conversation via a large language model.
+
 -> We can also build a custom chatbot using LLM.
 
 Note: While you want a chatbot to talk in a friendly way to users, when you need the information for working with, you'd like it to be less creative and more like what you expect. To do that, you can change the "temperature" setting to 0, which makes it act in a consistent and predictable manner.
